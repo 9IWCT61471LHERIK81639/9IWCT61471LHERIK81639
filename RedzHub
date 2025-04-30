@@ -45,7 +45,7 @@ BlackHole.Parent = Workspace
 
 -- Attachment base no BlackHole
 local baseAttachment = Instance.new("Attachment")
-baseAttachment.Name = "SHNMAX_BlackHoleAttachment"
+baseAttachment.Name = "REDZ_BlackHoleAttachment"
 baseAttachment.Parent = BlackHole
 
 -- Atualiza posição do BlackHole
@@ -59,7 +59,7 @@ local ControlledDoors = {}
 -- Prepara uma porta para ser controlada
 local function SetupPart(part)
 	if not part:IsA("BasePart") or part.Anchored or not string.find(part.Name, "Door") then return end
-	if part:FindFirstChild("SHNMAX_Attached") then return end
+	if part:FindFirstChild("REDZ_Attached") then return end
 
 	part.CanCollide = false
 
@@ -70,7 +70,7 @@ local function SetupPart(part)
 	end
 
 	local marker = Instance.new("BoolValue", part)
-	marker.Name = "SHNMAX_Attached"
+	marker.Name = "REDZ_Attached"
 
 	local a1 = Instance.new("Attachment", part)
 

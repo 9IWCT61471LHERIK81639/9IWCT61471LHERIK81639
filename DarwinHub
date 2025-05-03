@@ -23,7 +23,7 @@ Tab1:AddDiscordInvite({
 
 local Tab1 = Window:MakeTab({"Home", "rbxassetid://138700382840270"})
 
-local Section = Tab1:AddSection("Créditos: Herik999")
+local Section = Tab1:AddSection("Créditos: Darwin9999")
 
 Tab1:AddParagraph({"🔧 Interface Reformulada: Nova estrutura visual com foco em eficiência e organização."})
 Tab1:AddParagraph({"⚙️ Funções Reestruturadas: Melhor desempenho e modularidade interna aplicadas."})
@@ -32,7 +32,7 @@ Tab1:AddParagraph({"🔒 Segurança Reforçada: Proteções adicionais aplicadas
 Tab1:AddParagraph({"🧩 Integrações Futuras: Base pronta para receber sistemas exclusivos do SHNMAXHUB."})
 
 local playerName = game.Players.LocalPlayer.Name
-Tab1:AddParagraph({"Olá, " .. playerName .. "! ✅ Seja bem-vindo ao REDZ HUB. Aproveite com responsabilidade e bom uso do sistema."})
+Tab1:AddParagraph({"Olá, " .. playerName .. "! ✅ Seja bem-vindo ao DARWIN HUB. Aproveite com responsabilidade e bom uso do sistema."})
 
 Tab1:AddButton({
   Name = "Click Fling Doors",
